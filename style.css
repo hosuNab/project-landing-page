@@ -10,9 +10,9 @@ body {
 .container-2,
 .container-3,
 .container-4 {
-    height: 460px;
     display: flex;
-    padding: 40px 250px;
+    padding: 50px 250px;
+    min-height: 400px;
 }
 
 .header {
@@ -21,7 +21,7 @@ body {
     align-items: center;
     padding: 16px 250px;
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
 }
 
 .logo {
@@ -39,7 +39,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #F9FAF8;
 }
 
 .container-1 {
@@ -61,7 +61,7 @@ a {
     color: #E5E7EB;
 }
 
-.sign-up {
+.sign-up-button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 18px;
@@ -133,6 +133,32 @@ a {
     font-weight: 700;
     margin: 0;
     text-align: right;
+}
+
+.container-4 {
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 50px 100px;
+    flex: 1 1 10px;
+}
+
+.call-to-action,
+.sign-up-text {
+    margin: 0;
+}
+
+.action-box .sign-up-button {
+    border-width: 2px;
+    border-color: #F9FAF8;
+    border-style: solid;
 }
 
 .footer {
